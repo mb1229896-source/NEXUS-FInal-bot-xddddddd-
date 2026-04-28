@@ -7465,4 +7465,4 @@ async def on_command_error(ctx, error):
         await ctx.send(f"❌ Error: {str(error)}")
 
 if __name__ == '__main__':
-    bot.run(os.getenv('DISCORD_TOKEN'))
+    bot.run(os.getenv(''))
